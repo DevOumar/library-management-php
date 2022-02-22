@@ -1,0 +1,5 @@
+RewriteEngine On
+
+ErrorDocument 404 /BIBLIOTHEQUE/admin/404/404
+
+RewriteRule ^modifier-cycle/([0-9]+) modifier-cycle?cylid=$1 [NC,L]
